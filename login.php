@@ -22,6 +22,29 @@ function validate()
 var RE_EMAIL = /^(\w+[\-\.])*\w+@(\w+\.)+[A-Za-z]+$/;
 //var RE_PASSWORD = /^[A-Za-z\d]{6,8}$/;
 var RE_CONTACT = /^[0-9]{10}$/;
+			(!RE_CONTACT.test(contact)) { alert( "You must enter a valid contact."); }
+ }
+</script>
+</head>
+<body>
+	
+		<script type="text/javascript">
+var RE_EMAIL = /^(\w+[\-\.])*\w+@(\w+\.)+[A-Za-z]+$/;
+			(!RE_CONTACT.test(contact)) { alert( "You must enter a valid contact."); }
+ }
+</script>
+</head>
+<body>
+	
+		<script type="text/javascript">
+var RE_EMAIL = /^(\w+[\-\.])*\w+@(\w+\.)+[A-Za-z]+$/;(!RE_CONTACT.test(contact)) { alert( "You must enter a valid contact."); }
+ }
+</script>
+</head>
+<body>
+	
+		<script type="text/javascript">
+var RE_EMAIL = /^(\w+[\-\.])*\w+@(\w+\.)+[A-Za-z]+$/;
 function validate()
 {
  var email = form.email.value;
