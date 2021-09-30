@@ -4,6 +4,45 @@ $username = "root";
 $password = "";
 $dbname="blood bank";
 $conn = mysqli_connect($servername, $username, $password,$dbname);
+$conn = mysqli_connect($servername, $username, $password,$dbname);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+
+/*$sql = "CREATE DATABASE blood bank"; //database created 
+if (mysqli_query($conn, $sql)) {
+    echo "Database created successfully";
+} else {
+    echo "Error creating database: " . mysqli_error($conn);
+}*/
+$conn = mysqli_connect($servername, $username, $password,$dbname);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+
+/*$sql = "CREATE DATABASE blood bank"; //database created 
+if (mysqli_query($conn, $sql)) {
+    echo "Database created successfully";
+} else {
+    echo "Error creating database: " . mysqli_error($conn);
+}*/
+$conn = mysqli_connect($servername, $username, $password,$dbname);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+
+/*$sql = "CREATE DATABASE blood bank"; //database created 
+if (mysqli_query($conn, $sql)) {
+    echo "Database created successfully";
+} else {
+    echo "Error creating database: " . mysqli_error($conn);
+}*/
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
