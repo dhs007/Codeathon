@@ -23,8 +23,8 @@ age INT(2),
 address VARCHAR(30) NOT NULL,
 email VARCHAR(50),
 mob VARCHAR(10) NOT NULL,
-BG VARCHAR(10) NOT NULL,
-sex VARCHAR(10) NOT NULL,
+BackGround VARCHAR(10) NOT NULL,
+gender VARCHAR(10) NOT NULL,
 )";
 
 if (mysqli_query($conn, $sql)) {
